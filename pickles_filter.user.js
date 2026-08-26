@@ -1,8 +1,11 @@
 // ==UserScript==
 // @name         Pickles 车辆过滤器
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  过滤掉 sellingPlatesStatus 不是 All 的车辆,点击后显示 loading 状态
+// @homepageURL  https://github.com/runnan-pan/Pickles-Auction-Filter
+// @updateURL    https://raw.githubusercontent.com/runnan-pan/Pickles-Auction-Filter/main/pickles_filter.user.js
+// @downloadURL  https://raw.githubusercontent.com/runnan-pan/Pickles-Auction-Filter/main/pickles_filter.user.js
 // @match        https://www.pickles.com.au/used/*
 // @grant        none
 // ==/UserScript==
