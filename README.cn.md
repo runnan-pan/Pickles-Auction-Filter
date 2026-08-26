@@ -1,3 +1,5 @@
+简体中文 | [English](./README.md)
+
 # Pickles 车辆过滤器 (Pickles Auction Vehicle Filter)
 
 一个 Tampermonkey 用户脚本,用于在 [Pickles Auctions](https://www.pickles.com.au) 车辆列表页(Listing Page)上自动过滤车辆,只保留 `sellingPlatesStatus` 为 `"All"` 的车辆,隐藏其余车辆卡片。
@@ -20,10 +22,12 @@
 ## 🔧 安装方法
 
 1. 安装 [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) 浏览器插件(Chrome / Edge 均可)。
-2. 点击 Tampermonkey 图标 → **添加新脚本**。
-3. 将本仓库中的 `pickles_filter.user.js` 文件内容完整复制粘贴进去。
-4. 按 `Ctrl + S`(或 `Cmd + S`)保存。
-5. 确认脚本已启用(Tampermonkey 管理面板中脚本开关为绿色/开启状态)。
+2. 在已安装 Tampermonkey 的浏览器中打开下面的 raw 链接:
+   https://raw.githubusercontent.com/runnan-pan/Pickles-Auction-Filter/main/pickles_filter.user.js
+3. Tampermonkey 会自动识别用户脚本并弹出安装页,点击 **安装** 即可。
+4. 确认脚本已启用(Tampermonkey 管理面板中脚本开关为绿色/开启状态)。
+
+通过 raw 链接安装后,Tampermonkey 之后也可以从这个仓库检查更新。
 
 ## 🚀 使用方法
 

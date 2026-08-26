@@ -22,10 +22,12 @@ On the Pickles vehicle listing page, each vehicle's detail data includes a `sell
 ## 🔧 Installation
 
 1. Install the [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) browser extension (works on Chrome / Edge).
-2. Click the Tampermonkey icon → **Create a new script**.
-3. Copy the full contents of `pickles_filter.user.js` from this repo and paste it in.
-4. Save with `Ctrl + S` (or `Cmd + S`).
-5. Make sure the script is enabled (toggle is green/on in the Tampermonkey dashboard).
+2. In the same browser, open this raw script URL:
+   https://raw.githubusercontent.com/runnan-pan/Pickles-Auction-Filter/main/pickles_filter.user.js
+3. Tampermonkey will detect the userscript and show an installation page. Click **Install**.
+4. Make sure the script is enabled (toggle is green/on in the Tampermonkey dashboard).
+
+Installing from the raw URL also lets Tampermonkey check this repo for later updates.
 
 ## 🚀 Usage
 
